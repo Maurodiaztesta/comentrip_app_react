@@ -1,0 +1,58 @@
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1000px;
+    background-color: rgb(189, 189, 189);
+    &__title:hover{
+        cursor: pointer;
+    }
+    &__button{
+        width: 150px;
+        height: 36px;
+        font-size: 12px;
+        margin: 20px;
+        border: none;
+        background-color: #6DAD96;
+        color: white;
+    }
+    &__button:hover{
+        width: 150px;
+        height: 36px;
+        font-size: 12px;
+        margin: 20px;
+        border: none;
+        background-color: #6DAD96;
+        color: white;
+        background-color: #588b79;
+        cursor: pointer;
+    }
+    &__buttonAdmin{
+        width: 150px;
+        height: 36px;
+        font-size: 12px;
+        margin: 20px;
+        border: none;
+        background-color: grey;
+        color: white;
+    }
+    &__buttonAdmin:hover{
+        width: 150px;
+        height: 36px;
+        font-size: 12px;
+        margin: 20px;
+        border: none;
+        color: white;
+        background-color: rgb(102, 102, 102);
+        cursor: pointer;
+    }
+}
+.navAdmin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1000px;
+    background-color: #58917e75;
+}
