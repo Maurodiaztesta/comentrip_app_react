@@ -67,6 +67,7 @@ const HomePage = () => {
       img: imgValue,
       rate: ratingValue,
       comments: [],
+      commentsClient: []
     });
     setPlaces(newArray);
   };

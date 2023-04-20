@@ -25,6 +25,7 @@ const Modal = ({open, close, array, editArray, index}) => {
         newPlaces[index].commentsClient.push(comment);
         editArray(newPlaces);
         setComment('');
+        
       };
 
     if(!open) return null
